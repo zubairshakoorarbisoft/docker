@@ -1,0 +1,5 @@
+To Run:
+docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+
+To Stop:
+docker stop bb
