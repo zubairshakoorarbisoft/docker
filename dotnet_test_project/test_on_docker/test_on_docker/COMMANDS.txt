@@ -1,0 +1,5 @@
+To Build:
+docker build -t aspnetapp .
+
+To Run:
+docker run -d -p 8080:80 --name test_on_docker aspnetapp
